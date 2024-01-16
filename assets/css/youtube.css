@@ -1,0 +1,142 @@
+/*
+https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?type=design&node-id=0-1&mode=design
+
+
+
+*/
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+b{
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    height: 56px;
+    align-items: center;
+    width: auto;
+}
+
+.menu-icon{
+    margin-left: 20px;
+    padding-right: 30px;
+}
+
+header input[type=text]{
+    margin-left: 200px;
+    width: 400px;
+    height: 33px;
+}
+
+header button{
+    vertical-align: middle;
+    align-items: center;
+    padding: 3px 10px 3px 10px;
+    margin-left: -5px;
+}
+
+.nav3{
+    padding-left: 270px;
+}
+
+.nav3 img{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.video{
+    padding-left: 20px;
+    flex: 1;
+    order: 1;
+}
+
+.video > img {
+    width: 952px;
+    height: 537px;
+}
+
+.video .titulo{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.canal{
+    display: flex;
+    align-items: center;
+}
+
+
+.canal p img {
+    vertical-align: middle;
+}
+
+.canal p{
+    margin-right: 12px;
+    margin-left: -10px;
+}
+
+.canal img {    
+    margin-right: 12px;
+    margin-left: 40px;
+}
+
+.avatardio{
+    margin-left: 0px !important;
+}
+
+.canal button{
+    background-color: #CC0000;
+    margin-left: 20px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    color: white;
+    border: 1px solid red;
+}
+
+.info{
+    padding-top: 10px;
+}
+
+.info p{
+    padding-top: 10px;
+    width: 450px;
+    line-height: 1;
+}
+
+.lateral{
+    flex: 0 0 20vw;
+    order: 2;
+}
+
+.lateral li{
+    display: flex;
+    padding: 10px 5px;
+}
+.lateral div{
+    padding-left: 10px;
+    padding-top: 15px;    
+}
+.lateral div p {
+    margin-top: 1px;
+}
